@@ -1,0 +1,24 @@
+@use './variables' as v;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('../img/Estadio.jpg');
+    background-size: 100% 150%;
+}
+
+.imagen-loading{
+    width: 50%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
